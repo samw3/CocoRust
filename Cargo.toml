@@ -1,0 +1,14 @@
+[package]
+name = "coco_rust"
+version = "0.1.0"
+edition = "2018"
+authors = ["samw3<sam@p1xl.com>"]
+description = "Rust implementation of the Coco/R LL(1) parser.  See: https://ssw.jku.at/Research/Projects/Coco/"
+readme = "README.md"
+repository = "https://github.com/samw3/CocoRust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+bit-set = "0.5.2"
